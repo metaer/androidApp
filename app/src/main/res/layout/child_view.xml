@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1"
+    android:id="@+id/orderListView">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="drftghdft"
+        android:id="@+id/name"
+        android:width="150dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/quantityStore"
+        android:width="75dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/price"
+        android:width="75dp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/quantityOrder"
+        android:layout_weight="0.17"
+        android:textColor="#000000"
+        android:width="50dp"
+        android:typeface="normal"
+        android:visibility="visible"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:enabled="true"
+        android:editable="true"
+        android:textIsSelectable="true"
+        android:singleLine="false"
+        android:selectAllOnFocus="false"
+        android:phoneNumber="false"
+        android:password="false"
+        android:autoText="false"
+        android:numeric="integer" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/plus"
+        android:width="30dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:id="@+id/minus"
+        android:width="30dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Info"
+        android:id="@+id/info"
+        android:width="50dp"
+        android:layout_weight="0.15" />
+</TableRow>

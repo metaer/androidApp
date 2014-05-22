@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingRight="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingTop="@dimen/activity_vertical_margin"-->
+    <!--android:paddingBottom="@dimen/activity_vertical_margin"-->
+    <!--tools:context="stclient.app.collectionOrderActivity">-->
+
+    <!--&lt;!&ndash; activity_info layout file &ndash;&gt;-->
+    <!--&lt;!&ndash; Clickable title &ndash;&gt;-->
+    <!--&lt;!&ndash;<TextView  android:id="@+id/help_title_gest"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="test text"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:clickable="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:onClick="toggle_contents"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content" />&ndash;&gt;-->
+    <!--&lt;!&ndash;&lt;!&ndash;content to hide/show &ndash;&gt;&ndash;&gt;-->
+    <!--&lt;!&ndash;<TextView  android:id="@+id/txt_help_gest"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="test23"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content" />&ndash;&gt;-->
+
+    <!--<ExpandableListView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="292dp"-->
+        <!--android:id="@+id/expandableListView" />-->
+
+<!--</LinearLayout>-->
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.59">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="505dp"
+            android:layout_height="643dp"
+            android:layout_gravity="right|top"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="75dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Торговая точка:"
+                    android:id="@+id/textView"
+                    android:layout_weight="0.56" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="77dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Долг клиента:"
+                    android:id="@+id/textView2" />
+            </LinearLayout>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerClients"
+                android:layout_gravity="center_horizontal" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.07">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Наименование"
+                    android:id="@+id/textView4"
+                    android:width="160dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Количество"
+                    android:id="@+id/textView5"
+                    android:width="160dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Сумма"
+                    android:id="@+id/textView6"
+                    android:width="160dp" />
+            </TableRow>
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="251dp"
+                android:layout_gravity="center_horizontal"
+                android:isScrollContainer="true"
+                android:id="@+id/orderListView" />
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="wrap_content"
+                android:text="Комментарий к заказу:"
+                android:id="@+id/textView3"
+                android:layout_weight="0.17" />
+
+            <Button
+                android:layout_width="163dp"
+                android:layout_height="wrap_content"
+                android:text="Отправить"
+                android:id="@+id/button"
+                android:layout_gravity="right" />
+
+        </LinearLayout>
+
+        <ExpandableListView
+            android:id="@+id/exListView"
+            android:layout_width="762dp"
+            android:layout_height="wrap_content"
+            android:indicatorLeft="250dp"
+            android:indicatorRight="300dp"
+            android:layout_weight="0.23"
+            android:layout_gravity="left|top" />
+
+    </FrameLayout>
+
+</LinearLayout>

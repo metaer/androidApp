@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:weightSum="1"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Номенклатура"
+            android:id="@+id/textView"
+            android:width="150dp"
+            android:textColor="#0015ff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Остаток на складе"
+            android:id="@+id/textView2"
+            android:width="75dp"
+            android:textColor="#0017ff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Цена за единицу"
+            android:id="@+id/textView3"
+            android:width="75dp"
+            android:textColor="#0017ff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="В заказ"
+            android:id="@+id/textView4"
+            android:width="50dp"
+            android:textColor="#0017ff" />
+
+
+    </TableRow>
+</LinearLayout>

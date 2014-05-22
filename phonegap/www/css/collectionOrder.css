@@ -1,0 +1,65 @@
+.client-left {
+    background-color: #ff0000;
+    color: #ffffff;
+    width: 180px;
+    height: 40px;
+    float: left;
+    font-size: 12px;
+    border: 1px solid #000000;
+}
+
+.client-right {
+    background-color: #ff0000;
+    color: #ffffff;
+    width: 100px;
+    height: 40px;
+    /*position: relative;*/
+    /*left: 170px;*/
+    font-size: 12px;
+    float: right;
+    border: 1px solid #000000;
+}
+
+.ui-table-columntoggle-btn {
+    display: none !important;
+}
+
+.already-in-order{
+    background-color: #ff0000;
+    color: #ffffff;
+    border: 1px solid #000000;
+}
+
+.comment{
+    background-color: #1ad5ff;
+}
+
+.send-button{
+    background-color: #ff0000;
+    color: #ffffff;
+    width: 114px;
+    height: 40px;
+    /*position: relative;*/
+    /*left: 170px;*/
+    font-size: 12px;
+    float: right;
+    border: 1px solid #000000;
+}
+
+.clear{
+    clear:both;
+}
+
+#divgroups{
+    height: 400px;
+    overflow:scroll;
+}
+
+.nomQuantity{
+    width: 40px !important;
+    heigth: 15px !important;
+}
+
+.ui-input-text{
+    height: 30px;
+}

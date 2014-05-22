@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stc.iml" filepath="$PROJECT_DIR$/stc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stc10.iml" filepath="$PROJECT_DIR$/stc10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stclient.iml" filepath="$PROJECT_DIR$/stclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stclientAndr.iml" filepath="$PROJECT_DIR$/stclientAndr.iml" />
+    </modules>
+  </component>
+</project>
+

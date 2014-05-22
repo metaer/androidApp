@@ -1,0 +1,53 @@
+@startuml
+
+class Orders{
+    Order[] orders
+    int idCurrentOrder
+}
+
+class Item {
+    id id
+    string name
+    float price
+    int quantity
+    Id groupId
+}
+
+class OrderItem{
+    Item item
+    int quantity
+}
+
+class Store {
+    Item[] items
+}
+
+class Order {
+    Id orderId
+    Item[] items
+    string comment
+    Id idClient
+    string status
+}
+
+class Client {
+    id id
+    string name
+    string address
+    float debt
+}
+
+class Model {
+    Client[] clients
+    Store store
+    Order[] orders
+    Group[] groups
+}
+
+class Group {
+    id Id
+    string groupName
+}
+
+
+@enduml
